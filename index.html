@@ -1,59 +1,44 @@
 <!doctype html>
-<!--
-Website by @miradontsoa
-http://miradontsoa.com
--->
-
-<html class="no-js" lang="en">
-
+<html class="no-js" lang="ru">
 <head>
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 
-  <!-- Page Title Here -->
-  <title>Landeux - Landing page template</title>
+<meta charset="UTF-8">
 
-  <!-- Meta -->
-  <!-- Page Description Here -->
-  <meta name="description" content="A beautiful and creative portfolio template. It is mobile friend (responsive) and comes with smooth animations">
+<title>HTML landing</title>
+<meta name="description" content="описание">
 
-  <!-- Disable screen scaling-->
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, user-scalable=0">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, user-scalable=0">
 
-  <!-- Web fonts and Web Icons -->
-  <link rel="stylesheet" href="fonts/opensans/stylesheet.css">
-  <link rel="stylesheet" href="fonts/ionicons.min.css">
-  <link rel="stylesheet" href="fonts/font-awesome.min.css">
+<!-- веб шрифты и иконки -->
+<!-- <link rel="stylesheet" href="fonts/opensans/stylesheet.css"> -->
+<link rel="stylesheet" href="fonts/ionicons.min.css">
+<link rel="stylesheet" href="fonts/font-awesome.min.css">
 
-  <!-- Vendor CSS style -->
-  <link rel="stylesheet" href="css/pageloader.css">
+<!-- 00 -->
+<link rel="stylesheet" href="css/pageloader.css">
 
-  <!-- Uncomment below to load individualy vendor CSS -->
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="js/vendor/swiper.min.css">
-  <link rel="stylesheet" href="js/vegas/vegas.min.css">
+<!-- 00 -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="js/vendor/swiper.min.css">
+<link rel="stylesheet" href="js/vegas/vegas.min.css">
 
-  <!-- Main CSS files -->
-  <link rel="stylesheet" href="css/main.css">
+<!-- 00 -->
+<link rel="stylesheet" href="css/main.min.css">
+<link rel="stylesheet" href="css/style-default.css">
 
-  <!-- alt layout -->
-  <link rel="stylesheet" href="css/style-default.css">
+<script src="js/vendor/modernizr-2.7.1.min.js"></script>
 
-  <script src="js/vendor/modernizr-2.7.1.min.js"></script>
 </head>
-
 <body id="menu" class="body-black">
-  <!--[if lt IE 8]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
 
-  <!-- Page Loader : just comment these lines to remove it -->
+<!--[if lt IE 8]>
+<p class="browsehappy">Ваш браузер требует <strong>обновления</strong>. Пожалуйста <a href="https://yandex.ru/soft/browsers/">обновите его на этой странице</a>, для дальнейшей безопасной работы в сети.</p>
+<![endif]-->
 
-  <!-- BEGIN OF site header Menu -->
-  <header class="page-header navbar page-header-alpha menu-right 
+<!-- лого + меню + кнопки -->
+<header class="page-header navbar page-header-alpha menu-right scrolled-white topmenu-right no-menu-icon">
 
-scrolled-white topmenu-right no-menu-icon">
-
-    <!-- Begin of menu icon toggler -->
+    <!-- иконка меню -->
     <button class="navbar-toggler site-menu-icon" id="navMenuIcon">
       <span class="menu-icon">
         <span class="bars">
@@ -63,122 +48,115 @@ scrolled-white topmenu-right no-menu-icon">
         </span>
       </span>
     </button>
-    <!-- End of menu icon toggler -->
 
-    <!-- Begin of logo/brand -->
+    <!-- логотип -->
     <a class="navbar-brand" href="index.html#">
       <span class="logo">
         <img class="light-logo" src="img/logo_white.png" alt="Logo">
         <img class="dark-logo" src="img/logo_dark.png" alt="Logo">
       </span>
       <span class="text">
-        <span class="line">Landeux</span>
-        <span class="line sub">Landing page template</span>
+        <span class="line">SX CMS</span>
+        <span class="line sub">Очень оранжевая система</span>
       </span>
     </a>
-    <!-- End of logo/brand -->
 
-    <!-- begin of menu wrapper -->
+    <!-- главное меню -->
     <div class="all-menu-wrapper" id="navbarMenu">
-      <!-- Begin of top menu -->
       <nav class="navbar-topmenu" id="topBarMenu">
         <ul class="navbar-nav navbar-nav-menu">
           <li class="nav-item active">
-            <a class="nav-link" href="index.html#home">About</a>
+            <a class="nav-link" href="index.html#home">Что это</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="index.html#features">Features</a>
+            <a class="nav-link" href="index.html#features">Особенности</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="index.html#use-case">Use case</a>
+            <a class="nav-link" href="index.html#use-case">Для чего</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="index.html#pricing">Pricing</a>
+            <a class="nav-link disabled" href="index.html#pricing">Стоимость</a>
           </li>
         </ul>
 
 
-        <!-- Begin of CTA Actions, & Icons menu -->
+        <!-- CTA (call to action) кнопки привлечения внимания) -->
         <ul class="navbar-nav navbar-nav-actions">
           <li class="nav-item">
             <a class="btn btn-outline-white btn-round" href="index.html#download">
-              Free Version
+              Бесплатная версия
             </a>
           </li>
           <li class="nav-item cta">
             <a class="btn btn-primary bg-gradient-primary no-border btn-shadow btn-round" href="index.html#download">
-              Pro Version
+              Расширенная
             </a>
           </li>
         </ul>
-        <!-- End of CTA & Icons menu -->
-      </nav>
-      <!-- End of top menu -->
 
+      </nav>
 
       <nav class="navbar-action">
       </nav>
     </div>
-    <!-- end of menu wrapper -->
 
-  </header>
-  <!-- END OF site header Menu-->
+</header>
 
-  <!-- BEGIN OF page cover -->
+  <!-- обложка -->
   <div class="page-cover">
-    <!-- Cover Background -->
+    <!-- фон -->
     <div class="cover-bg bg-gradient-primary"></div>
 
-    <!-- Image mask layer -->
+    <!-- маска слоя -->
     <div class="cover-bg-mask bg-img" data-image-src="img/bg-layer.png"></div>
 
   </div>
-  <!--END OF page cover -->
 
-  <!-- BEGIN OF page main content -->
+  <!-- главный контент страницы -->
   <main class="page-main page-fullpage main-anim" id="mainpage">
 
-    <!-- Begin of home section -->
+    <!-- секция контента обложки -->
     <div class="section section-home fullheight landing-home" data-section="home" id="home">
-      <!-- Begin of section wrapper -->
+
+      <!-- контент обложки -->
       <div class="section-wrapper twoside home-padding">
         <div class="row">
-          <!-- begin of left content -->
+
+          <!-- левая сторона контента обложки -->
           <div class="col left-content text-center text-md-left center-vh">
-            <!-- content -->
+            <!-- контент -->
             <div class="section-content">
-              <!-- title and description -->
+              <!-- броский заголовок и текст -->
               <div class="title-desc">
                 <h2 class="display-3 display-title">
                   <strong>
-                    <span class="line-block sr-up-td1">Beautiful</span>
-                    <span class="line-block sr-up-td2">Landing Page</span>
+                    <span class="line-block sr-up-td1">Устал выбирать?</span>
+                    <!-- <span class="line-block sr-up-td2"></span> -->
                   </strong>
                 </h2>
-                <h4 class="sr-up-td3">We built this template to help you create modern and beautiful marketing
-                  page.</h4>
+                <h4 class="sr-up-td3">Тогда глубоко вздохни и полистай страницу
+                </h4>
               </div>
 
-              <!-- Action button -->
+              <!-- кнопки действия -->
               <div class="btns-action">
                 <span class="inline-block sr-up-td5">
                   <a class="btn btn-white btn-shadow btn-round no-border" href="index.html#services">
                     <span class="txt text-gradient-primary">
-                      <strong>Get it now</strong>
+                      <strong>Скачать</strong>
                     </span>
                   </a>
                 </span>
                 <span class="inline-block sr-up-td6">
                   <a class="btn btn-outline-white btn-round" href="index.html#services">
-                    Features
+                    Подробнее
                   </a>
                 </span>
               </div>
             </div>
           </div>
-          <!-- end of left content -->
 
-          <!-- begin of right content -->
+          <!-- правая сторона обложки -->
           <div class="col right-content hidden-sm center-vh">
             <!-- content -->
             <div class="section-content anim">
@@ -212,9 +190,8 @@ scrolled-white topmenu-right no-menu-icon">
           <!-- title and description -->
           <div class="title-desc reduced">
             <p>This template is built on top of
-              <strong>Bootstrap 4&nbsp;</strong>, the latest version of Bootstrap. Additionally,
-              it uses custom CSS classes to get easily the result that you see. Use
-              only additional CSS rules for complex customization.</p>
+              <strong>Bootstrap 4&nbsp;</strong>, the latest version of Bootstrap. Additionally, it uses custom CSS classes to get
+              easily the result that you see. Use only additional CSS rules for complex customization.</p>
           </div>
 
           <!-- begin of feature -->
@@ -228,8 +205,8 @@ scrolled-white topmenu-right no-menu-icon">
                   </div>
                   <h4 class="item-name text-gradient-primary">All in one package</h4>
                   <div class="item-desc">
-                    <p>Landing page for app, product, event and business in the same
-                      package.</p>
+                    <p>Landing page for app, product, event and business in the same package.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -253,8 +230,7 @@ scrolled-white topmenu-right no-menu-icon">
                   </div>
                   <h4 class="item-name text-gradient-primary">Ready for Search Engine</h4>
                   <div class="item-desc">
-                    <p>This is a placeholder text. Replace it with your awesome call
-                      to action text.</p>
+                    <p>This is a placeholder text. Replace it with your awesome call to action text.</p>
                   </div>
                 </div>
               </div>
@@ -312,9 +288,8 @@ scrolled-white topmenu-right no-menu-icon">
                   <div class="col-12 col-md-9 mb-3">
                     <div>
                       <h4 class="border-primary text-primary">Mobile ready</h4>
-                      <p>This is a placeholder text. Replace it with your awesome call
-                        to action text. Build stunning landing page easily with this
-                        template
+                      <p>This is a placeholder text. Replace it with your awesome call to action text. Build stunning landing
+                        page easily with this template
                       </p>
                     </div>
                   </div>
@@ -357,9 +332,9 @@ scrolled-white topmenu-right no-menu-icon">
                   <div class="col-12 col-md-9 mb-3 sr-up-td3">
                     <div>
                       <h4 class="border-primary text-primary">Multi-browser</h4>
-                      <p>This is a placeholder text. Replace it with your awesome call
-                        to action text. Build stunning landing page easily with this
-                        template</p>
+                      <p>This is a placeholder text. Replace it with your awesome call to action text. Build stunning landing
+                        page easily with this template
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -388,9 +363,8 @@ scrolled-white topmenu-right no-menu-icon">
         <div class="section-content anim text-center">
           <!-- title and description -->
           <div class="title-desc reduced">
-            <p>This is a placeholder text. Replace it with your awesome call to action
-              text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-              aliquet malesuada feugiat.
+            <p>This is a placeholder text. Replace it with your awesome call to action text. Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit. Mauris aliquet malesuada feugiat.
             </p>
           </div>
 
@@ -404,8 +378,7 @@ scrolled-white topmenu-right no-menu-icon">
                   </div>
                   <h4 class="item-name">All in one package</h4>
                   <div class="item-desc">
-                    <p>This is a placeholder text. Replace it with your awesome call
-                      to action text.</p>
+                    <p>This is a placeholder text. Replace it with your awesome call to action text.</p>
                   </div>
                 </div>
               </div>
@@ -429,8 +402,7 @@ scrolled-white topmenu-right no-menu-icon">
                   </div>
                   <h4 class="item-name">Ready for Search Engine</h4>
                   <div class="item-desc">
-                    <p>This is a placeholder text. Replace it with your awesome call
-                      to action text.</p>
+                    <p>This is a placeholder text. Replace it with your awesome call to action text.</p>
                   </div>
                 </div>
               </div>
@@ -448,8 +420,7 @@ scrolled-white topmenu-right no-menu-icon">
     <!-- End of features section -->
 
     <!-- Begin of slider features section -->
-    <div class="section section-twoside bg-white bg-bright" data-section="slider-use-case"
-    id="use-case">
+    <div class="section section-twoside bg-white bg-bright" data-section="slider-use-case" id="use-case">
       <!-- Begin of section wrapper -->
       <div class="section-wrapper twoside padding-bottom padding-top">
         <!-- title -->
@@ -491,9 +462,8 @@ scrolled-white topmenu-right no-menu-icon">
                       <!-- title and description -->
                       <div class="title-desc">
                         <h2 class="display-4 display-title anim fadein-top td-2 text-black">Unique Feature</h2>
-                        <p class="anim fadein-top td-3">This is a placeholder text. Replace it with your awesome
-                          call to action text. Develop stunning product website easily
-                          with this template.</p>
+                        <p class="anim fadein-top td-3">This is a placeholder text. Replace it with your awesome call to action text. Develop stunning product
+                          website easily with this template.</p>
                         <div class="row anim fadein-top td-4">
                           <div class="col-12 mb-3">
                             <div class="">
@@ -548,9 +518,8 @@ scrolled-white topmenu-right no-menu-icon">
                       <!-- title and description -->
                       <div class="title-desc">
                         <h2 class="display-4 display-title anim fadein-top td-2 text-black">Selling Points</h2>
-                        <p class="anim fadein-top td-3">This is a placeholder text. Replace it with your awesome
-                          call to action text. Develop stunning product website easily
-                          with this template.</p>
+                        <p class="anim fadein-top td-3">This is a placeholder text. Replace it with your awesome call to action text. Develop stunning product
+                          website easily with this template.</p>
                         <div class="row anim fadein-top td-4">
                           <div class="col-12 mb-3">
                             <div class="">
@@ -605,9 +574,8 @@ scrolled-white topmenu-right no-menu-icon">
                       <!-- title and description -->
                       <div class="title-desc">
                         <h2 class="display-4 display-title anim fadein-top td-2 text-black">Awesome Page</h2>
-                        <p class="anim fadein-top td-3">This is a placeholder text. Replace it with your awesome
-                          call to action text. Develop stunning product website easily
-                          with this template.</p>
+                        <p class="anim fadein-top td-3">This is a placeholder text. Replace it with your awesome call to action text. Develop stunning product
+                          website easily with this template.</p>
                         <div class="row anim fadein-top td-4">
                           <div class="col-12 mb-3">
                             <div class="">
@@ -686,9 +654,8 @@ scrolled-white topmenu-right no-menu-icon">
                       </div>
                       <div class="media-body">
                         <h4 class="text-primary">Media Element</h4>
-                        <p>This is a Bootstrap 4 Media object. Use it to showcase a
-                          feature or replace it with your awesome call to action
-                          text.
+                        <p>This is a Bootstrap 4 Media object. Use it to showcase a feature or replace it with your awesome
+                          call to action text.
                         </p>
                       </div>
                     </div>
@@ -702,9 +669,8 @@ scrolled-white topmenu-right no-menu-icon">
                       </div>
                       <div class="media-body">
                         <h4 class="text-primary">Multi-Variants</h4>
-                        <p>This is a Bootstrap 4 Media object. Use it to showcase a
-                          feature or replace it with your awesome call to action
-                          text.
+                        <p>This is a Bootstrap 4 Media object. Use it to showcase a feature or replace it with your awesome
+                          call to action text.
                         </p>
                       </div>
                     </div>
@@ -718,9 +684,9 @@ scrolled-white topmenu-right no-menu-icon">
                       </div>
                       <div class="media-body">
                         <h4 class="text-primary">Fully Customizable</h4>
-                        <p>This is a Bootstrap 4 Media object. Use it to showcase a
-                          feature or replace it with your awesome call to action
-                          text.</p>
+                        <p>This is a Bootstrap 4 Media object. Use it to showcase a feature or replace it with your awesome
+                          call to action text.
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -762,8 +728,7 @@ scrolled-white topmenu-right no-menu-icon">
               <div class="title-desc">
                 <h2 class="display-4 display-title sr-up-td2">Unique Feature</h2>
                 <div class="sr-up-td3">
-                  <p>This is a placeholder text. Replace it with your awesome call to
-                    action text.</p>
+                  <p>This is a placeholder text. Replace it with your awesome call to action text.</p>
                 </div>
                 <div class="row sr-up-td4">
                   <div class="col-12 col-md-6 mb-3">
@@ -814,8 +779,7 @@ scrolled-white topmenu-right no-menu-icon">
         <!-- title -->
         <div class="section-title text-center">
           <h2 class="display-4 display-title">More Features</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet
-            malesuada feugiat.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet malesuada feugiat.</p>
         </div>
 
         <!-- text or illustration order are manipulated via Bootstrap order-md-1, order-md-2 class -->
@@ -832,8 +796,8 @@ scrolled-white topmenu-right no-menu-icon">
                 </div>
                 <div class="media-body">
                   <h4>Responsive</h4>
-                  <p>Nulla vel metus scelerisque ante sollicitudin. Cras purus odio,
-                    vestibulum in vulputate at, tempus viverra turpis.</p>
+                  <p>Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra
+                    turpis.</p>
                 </div>
               </div>
               <!-- a media object -->
@@ -843,8 +807,8 @@ scrolled-white topmenu-right no-menu-icon">
                 </div>
                 <div class="media-body">
                   <h4>Framework</h4>
-                  <p>Nulla vel metus scelerisque ante sollicitudin. Cras purus odio,
-                    vestibulum in vulputate at, tempus viverra turpis.</p>
+                  <p>Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra
+                    turpis.</p>
                 </div>
               </div>
               <!-- a media object -->
@@ -854,8 +818,8 @@ scrolled-white topmenu-right no-menu-icon">
                 </div>
                 <div class="media-body">
                   <h4>Modern</h4>
-                  <p>Nulla vel metus scelerisque ante sollicitudin. Cras purus odio,
-                    vestibulum in vulputate at, tempus viverra turpis.</p>
+                  <p>Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra
+                    turpis.</p>
                 </div>
               </div>
             </div>
@@ -873,8 +837,8 @@ scrolled-white topmenu-right no-menu-icon">
                 </div>
                 <div class="media-body">
                   <h4>Flexbox</h4>
-                  <p>Nulla vel metus scelerisque ante sollicitudin. Cras purus odio,
-                    vestibulum in vulputate at, tempus viverra turpis.</p>
+                  <p>Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra
+                    turpis.</p>
                 </div>
               </div>
               <!-- a media object -->
@@ -884,8 +848,8 @@ scrolled-white topmenu-right no-menu-icon">
                 </div>
                 <div class="media-body">
                   <h4>Prebuild</h4>
-                  <p>Nulla vel metus scelerisque ante sollicitudin. Cras purus odio,
-                    vestibulum in vulputate at, tempus viverra turpis.</p>
+                  <p>Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra
+                    turpis.</p>
                 </div>
               </div>
               <!-- a media object -->
@@ -895,8 +859,8 @@ scrolled-white topmenu-right no-menu-icon">
                 </div>
                 <div class="media-body">
                   <h4>Mobile ready</h4>
-                  <p>Nulla vel metus scelerisque ante sollicitudin. Cras purus odio,
-                    vestibulum in vulputate at, tempus viverra turpis.</p>
+                  <p>Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra
+                    turpis.</p>
                 </div>
               </div>
             </div>
@@ -969,8 +933,7 @@ scrolled-white topmenu-right no-menu-icon">
     </div>
     <!-- End of features section -->
     <!-- Begin of pricelist section -->
-    <div class="section section-pricelist bg-white bg-bright" data-section="calltoaction"
-    id="pricing">
+    <div class="section section-pricelist bg-white bg-bright" data-section="calltoaction" id="pricing">
       <!-- Begin of section wrapper -->
       <div class="section-wrapper padding-top padding-bottom">
         <!-- title -->
@@ -978,8 +941,8 @@ scrolled-white topmenu-right no-menu-icon">
           <h5>Download Now</h5>
           <h2 class="display-4 display-title">Plans &amp; Pricing</h2>
           <p>A
-            <strong>Bootstrap 4</strong>based UI Kit. Use only custom CSS only for more complex
-            implementations.</p>
+            <strong>Bootstrap 4</strong>based UI Kit. Use only custom CSS only for more complex implementations.
+          </p>
         </div>
 
         <!-- content -->
@@ -1077,16 +1040,14 @@ scrolled-white topmenu-right no-menu-icon">
     <!-- End of pricelist section -->
 
     <!-- Begin of call to action section -->
-    <div class="section section-description bg-secondary bg-gradient-secondary landing-cta"
-    data-section="calltoaction" id="download">
+    <div class="section section-description bg-secondary bg-gradient-secondary landing-cta" data-section="calltoaction" id="download">
       <!-- Begin of section wrapper -->
       <div class="section-wrapper padding-top padding-bottom">
         <!-- title -->
         <div class="section-title text-center">
           <h2 class="display-4 display-title">Download now</h2>
-          <p>Here are sample items that you can embed within a call to action section:
-            Play icon, regular buttons, play store &amp; app store official buttons
-            and subscription form.</p>
+          <p>Here are sample items that you can embed within a call to action section: Play icon, regular buttons, play store
+            &amp; app store official buttons and subscription form.</p>
         </div>
 
         <!-- content -->
