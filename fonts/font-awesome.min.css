@@ -1,0 +1,16 @@
+/* fontawesone 4.7.0 */
+@font-face{font-family:'FontAwesome';font-weight:normal;font-style:normal;src:url('fontawesome-webfont.eot%3Fv=4.7.0');src:url('fontawesome-webfont.eot%3F') format('embedded-opentype'),url('fontawesome-webfont.woff2%3Fv=4.7.0.html') format('woff2'),url('fontawesome-webfont.woff%3Fv=4.7.0') format('woff'),url('fontawesome-webfont.ttf%3Fv=4.7.0') format('truetype'),url('fontawesome-webfont.svg%3Fv=4.7.0') format('svg');}
+.fa{font:normal normal normal 14px/1 FontAwesome;font-size:inherit;display:inline-block;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+.fa-star:before{content:'\f005';}
+.fa-check:before{content:'\f00c';}
+.fa-remove:before{content:'\f00d';}
+.fa-download:before{content:'\f019';}
+.fa-twitter:before{content:'\f099';}
+.fa-facebook:before{content:'\f09a';}
+.fa-arrows-alt:before{content:'\f0b2';}
+.fa-columns:before{content:'\f0db';}
+.fa-youtube:before{content:'\f167';}
+.fa-code:before{content:'\f121';}
+.fa-instagram:before{content:'\f16d';}
+.fa-vk::before {content: "\f189";}
+@charset 'UTF-8';

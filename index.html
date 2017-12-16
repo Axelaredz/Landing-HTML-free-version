@@ -1,44 +1,37 @@
 <!doctype html>
-<html class="no-js" lang="ru">
+<html lang="ru">
 <head>
 
 <meta charset="UTF-8">
 
-<title>HTML landing</title>
+<title>SX CMS - включи только нужное</title>
 <meta name="description" content="описание">
 
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, user-scalable=0">
 
-<!-- веб шрифты и иконки -->
-<!-- <link rel="stylesheet" href="fonts/opensans/stylesheet.css"> -->
 <link rel="stylesheet" href="fonts/ionicons.min.css">
 <link rel="stylesheet" href="fonts/font-awesome.min.css">
 
-<!-- 00 -->
-<link rel="stylesheet" href="css/pageloader.css">
-
-<!-- 00 -->
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="js/vendor/swiper.min.css">
-<link rel="stylesheet" href="js/vegas/vegas.min.css">
 
-<!-- 00 -->
-<link rel="stylesheet" href="css/main.min.css">
+<link rel="stylesheet" href="css/main.css">
 <link rel="stylesheet" href="css/style-default.css">
-
-<script src="js/vendor/modernizr-2.7.1.min.js"></script>
 
 </head>
 <body id="menu" class="body-black">
 
-<!--[if lt IE 8]>
-<p class="browsehappy">Ваш браузер требует <strong>обновления</strong>. Пожалуйста <a href="https://yandex.ru/soft/browsers/">обновите его на этой странице</a>, для дальнейшей безопасной работы в сети.</p>
-<![endif]-->
+  <!--[if lt IE 8]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
 
-<!-- лого + меню + кнопки -->
-<header class="page-header navbar page-header-alpha menu-right scrolled-white topmenu-right no-menu-icon">
+  <!-- Page Loader : just comment these lines to remove it -->
 
-    <!-- иконка меню -->
+  <!-- BEGIN OF site header Menu -->
+  <header class="page-header navbar page-header-alpha menu-right
+scrolled-white topmenu-right no-menu-icon">
+
+    <!-- Begin of menu icon toggler -->
     <button class="navbar-toggler site-menu-icon" id="navMenuIcon">
       <span class="menu-icon">
         <span class="bars">
@@ -48,8 +41,9 @@
         </span>
       </span>
     </button>
+    <!-- End of menu icon toggler -->
 
-    <!-- логотип -->
+    <!-- Begin of logo/brand -->
     <a class="navbar-brand" href="index.html#">
       <span class="logo">
         <img class="light-logo" src="img/logo_white.png" alt="Logo">
@@ -57,16 +51,18 @@
       </span>
       <span class="text">
         <span class="line">SX CMS</span>
-        <span class="line sub">Очень оранжевая система</span>
+        <span class="line sub">Включи только нужное</span>
       </span>
     </a>
+    <!-- End of logo/brand -->
 
-    <!-- главное меню -->
+    <!-- begin of menu wrapper -->
     <div class="all-menu-wrapper" id="navbarMenu">
+      <!-- Begin of top menu -->
       <nav class="navbar-topmenu" id="topBarMenu">
         <ul class="navbar-nav navbar-nav-menu">
           <li class="nav-item active">
-            <a class="nav-link" href="index.html#home">Что это</a>
+            <a class="nav-link" href="index.html#home">Подробнее</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="index.html#features">Особенности</a>
@@ -74,89 +70,92 @@
           <li class="nav-item">
             <a class="nav-link" href="index.html#use-case">Для чего</a>
           </li>
-          <li class="nav-item">
+<!--           <li class="nav-item">
             <a class="nav-link disabled" href="index.html#pricing">Стоимость</a>
-          </li>
+          </li> -->
         </ul>
 
 
-        <!-- CTA (call to action) кнопки привлечения внимания) -->
+        <!-- Begin of CTA Actions, & Icons menu -->
         <ul class="navbar-nav navbar-nav-actions">
           <li class="nav-item">
             <a class="btn btn-outline-white btn-round" href="index.html#download">
-              Бесплатная версия
+              Скачать
             </a>
           </li>
-          <li class="nav-item cta">
+<!--           <li class="nav-item cta">
             <a class="btn btn-primary bg-gradient-primary no-border btn-shadow btn-round" href="index.html#download">
               Расширенная
             </a>
-          </li>
+          </li> -->
         </ul>
-
+        <!-- End of CTA & Icons menu -->
       </nav>
+      <!-- End of top menu -->
+
 
       <nav class="navbar-action">
       </nav>
     </div>
+    <!-- end of menu wrapper -->
 
-</header>
+  </header>
+  <!-- END OF site header Menu-->
 
-  <!-- обложка -->
+  <!-- BEGIN OF page cover -->
   <div class="page-cover">
-    <!-- фон -->
+    <!-- Cover Background -->
     <div class="cover-bg bg-gradient-primary"></div>
 
-    <!-- маска слоя -->
+    <!-- Image mask layer -->
     <div class="cover-bg-mask bg-img" data-image-src="img/bg-layer.png"></div>
 
   </div>
+  <!--END OF page cover -->
 
-  <!-- главный контент страницы -->
+  <!-- BEGIN OF page main content -->
   <main class="page-main page-fullpage main-anim" id="mainpage">
 
-    <!-- секция контента обложки -->
+    <!-- Begin of home section -->
     <div class="section section-home fullheight landing-home" data-section="home" id="home">
-
-      <!-- контент обложки -->
+      <!-- Begin of section wrapper -->
       <div class="section-wrapper twoside home-padding">
         <div class="row">
-
-          <!-- левая сторона контента обложки -->
+          <!-- begin of left content -->
           <div class="col left-content text-center text-md-left center-vh">
-            <!-- контент -->
+            <!-- content -->
             <div class="section-content">
-              <!-- броский заголовок и текст -->
+              <!-- title and description -->
               <div class="title-desc">
                 <h2 class="display-3 display-title">
                   <strong>
-                    <span class="line-block sr-up-td1">Устал выбирать?</span>
-                    <!-- <span class="line-block sr-up-td2"></span> -->
+                    <span class="line-block sr-up-td1">Управляй</span>
+                    <span class="line-block sr-up-td2">из телефона</span>
                   </strong>
                 </h2>
-                <h4 class="sr-up-td3">Тогда глубоко вздохни и полистай страницу
-                </h4>
+                <h4 class="sr-up-td3">Поддержка мобильных устройств из коробки.</h4>
               </div>
 
-              <!-- кнопки действия -->
+              <!-- Action button -->
               <div class="btns-action">
                 <span class="inline-block sr-up-td5">
                   <a class="btn btn-white btn-shadow btn-round no-border" href="index.html#services">
                     <span class="txt text-gradient-primary">
-                      <strong>Скачать</strong>
+                      <strong>Открыть демо</strong>
                     </span>
                   </a>
                 </span>
-                <span class="inline-block sr-up-td6">
+<!--                 <span class="inline-block sr-up-td6">
                   <a class="btn btn-outline-white btn-round" href="index.html#services">
-                    Подробнее
+                    Особенности
                   </a>
-                </span>
+                </span> -->
               </div>
             </div>
           </div>
+          <!-- end of left content -->
 
-          <!-- правая сторона обложки -->
+          <!-- begin of right content -->
           <div class="col right-content hidden-sm center-vh">
             <!-- content -->
             <div class="section-content anim">
@@ -181,17 +180,16 @@
       <div class="section-wrapper padding-top padding-bottom">
         <!-- title -->
         <div class="section-title text-center">
-          <h5>Description</h5>
-          <h2 class="display-4 display-title">Modern Layout</h2>
+<!--           <h5>Description</h5>
+ -->          <h2 class="display-4 display-title">В ногу со временем</h2>
         </div>
 
         <!-- content -->
         <div class="section-content anim text-center">
           <!-- title and description -->
           <div class="title-desc reduced">
-            <p>This template is built on top of
-              <strong>Bootstrap 4&nbsp;</strong>, the latest version of Bootstrap. Additionally, it uses custom CSS classes to get
-              easily the result that you see. Use only additional CSS rules for complex customization.</p>
+            <p>Эта страница выполнена с использованием
+              <strong>Bootstrap 4&nbsp;</strong>, одним из самых современных CSS фреймворков. Который использует удобные пользовательские классы CSS, чтобы вывести результат, который перед вами.</p>
           </div>
 
           <!-- begin of feature -->
@@ -203,10 +201,9 @@
                   <div class="item-icon">
                     <i class="icon icon-4 fa fa-download text-gradient-primary"></i>
                   </div>
-                  <h4 class="item-name text-gradient-primary">All in one package</h4>
+                  <h4 class="item-name text-gradient-primary">Всё в одном</h4>
                   <div class="item-desc">
-                    <p>Landing page for app, product, event and business in the same package.
-                    </p>
+                    <p>Базовые модули уже включены в бесплатную лайм версию.</p>
                   </div>
                 </div>
               </div>
@@ -216,9 +213,9 @@
                   <div class="item-icon">
                     <i class="icon icon-4 text-gradient-primary ion ion-wrench"></i>
                   </div>
-                  <h4 class="item-name text-gradient-primary">Clickable Item</h4>
+                  <h4 class="item-name text-gradient-primary">Админ панель</h4>
                   <div class="item-desc">
-                    <p>This panel is clickable. Just replace the href by your link.</p>
+                    <p>Удобная панель управления сайтом без долгих поисков нужной функции.</p>
                   </div>
                 </a>
               </div>
@@ -228,9 +225,9 @@
                   <div class="item-icon">
                     <i class="icon icon-4 text-gradient-primary ion ion-code"></i>
                   </div>
-                  <h4 class="item-name text-gradient-primary">Ready for Search Engine</h4>
+                  <h4 class="item-name text-gradient-primary">Понятный код</h4>
                   <div class="item-desc">
-                    <p>This is a placeholder text. Replace it with your awesome call to action text.</p>
+                    <p>Шаблонизатор тем оформления не сложнее чем в HTML.</p>
                   </div>
                 </div>
               </div>
@@ -241,7 +238,7 @@
           <!-- Action button -->
           <div class="btns-action">
             <a class="btn btn-primary bg-gradient-primary btn-round no-border btn-shadow" href="index.html#services">
-              <span class="txt">Get it now</span>
+              <span class="txt">Скачать</span>
             </a>
           </div>
         </div>
@@ -281,15 +278,14 @@
             <div class="section-content anim">
               <!-- title and description -->
               <div class="title-desc text-right">
-                <h2 class="display-4 display-title sr-up-td2">Nice
-                  <br>Feature
+                <h2 class="display-4 display-title sr-up-td2">Хорошие
+                  <br>Новости
                 </h2>
                 <div class="row justify-content-end sr-up-td3">
                   <div class="col-12 col-md-9 mb-3">
                     <div>
-                      <h4 class="border-primary text-primary">Mobile ready</h4>
-                      <p>This is a placeholder text. Replace it with your awesome call to action text. Build stunning landing
-                        page easily with this template
+                      <h4 class="border-primary text-primary">Мобильные устройства</h4>
+                      <p>Оформление оптимизированно для различных мобильных устройств с учётом скорости подключения к сети. Предоставляя быстрый доступ к контенту конечному пользователю.
                       </p>
                     </div>
                   </div>
@@ -326,15 +322,13 @@
             <div class="section-content anim">
               <!-- title and description -->
               <div class="title-desc text-left">
-                <h2 class="display-4 display-title sr-up-td2">Smart
-                  <br>Design</h2>
+                <h2 class="display-4 display-title sr-up-td2">Адаптивный
+                  <br>Дизайн</h2>
                 <div class="row justify-content-start">
                   <div class="col-12 col-md-9 mb-3 sr-up-td3">
                     <div>
-                      <h4 class="border-primary text-primary">Multi-browser</h4>
-                      <p>This is a placeholder text. Replace it with your awesome call to action text. Build stunning landing
-                        page easily with this template
-                      </p>
+                      <h4 class="border-primary text-primary">Поддержка браузеров</h4>
+                      <p>В зависимости от браузера и типа устройства, контент разместится более удобным для восприятия образом.</p>
                     </div>
                   </div>
                 </div>
@@ -356,15 +350,14 @@
       <div class="section-wrapper padding-top padding-bottom">
         <!-- title -->
         <div class="section-title text-center">
-          <h2 class="display-4 display-title">Attractive Aspects</h2>
+          <h2 class="display-4 display-title">Особенности</h2>
         </div>
 
         <!-- content -->
         <div class="section-content anim text-center">
           <!-- title and description -->
           <div class="title-desc reduced">
-            <p>This is a placeholder text. Replace it with your awesome call to action text. Lorem ipsum dolor sit amet, consectetur
-              adipiscing elit. Mauris aliquet malesuada feugiat.
+            <p>За долгое существование система приобрела большой опыт и интересные особенности.
             </p>
           </div>
 
@@ -376,9 +369,9 @@
                   <div class="item-icon">
                     <i class="icon icon-4 fa fa-download text-gradient-primary"></i>
                   </div>
-                  <h4 class="item-name">All in one package</h4>
+                  <h4 class="item-name">Простая структура</h4>
                   <div class="item-desc">
-                    <p>This is a placeholder text. Replace it with your awesome call to action text.</p>
+                    <p>Для обновления или установки новой темы достаточно распаковки в соответствующую папку.</p>
                   </div>
                 </div>
               </div>
@@ -388,9 +381,9 @@
                   <div class="item-icon">
                     <i class="icon icon-4 text-gradient-primary ion ion-wrench"></i>
                   </div>
-                  <h4 class="item-name">Clickable Item</h4>
+                  <h4 class="item-name">Богатство настроек</h4>
                   <div class="item-desc">
-                    <p>This panel is clickable. Just replace the href by your link.</p>
+                    <p>Большинство самых важных моментов управления выведено в панель, без необходимости редактировать файлы.</p>
                   </div>
                 </a>
               </div>
@@ -400,9 +393,9 @@
                   <div class="item-icon">
                     <i class="icon icon-4 text-gradient-primary ion ion-code"></i>
                   </div>
-                  <h4 class="item-name">Ready for Search Engine</h4>
+                  <h4 class="item-name">Включи нужное</h4>
                   <div class="item-desc">
-                    <p>This is a placeholder text. Replace it with your awesome call to action text.</p>
+                    <p>Возможность выключить не используемые модули для повышения скорости работы системы. </p>
                   </div>
                 </div>
               </div>
@@ -420,12 +413,13 @@
     <!-- End of features section -->
 
     <!-- Begin of slider features section -->
-    <div class="section section-twoside bg-white bg-bright" data-section="slider-use-case" id="use-case">
+    <div class="section section-twoside bg-white bg-bright" data-section="slider-use-case"
+    id="use-case">
       <!-- Begin of section wrapper -->
       <div class="section-wrapper twoside padding-bottom padding-top">
         <!-- title -->
         <div class="section-title text-center">
-          <h2 class="display-4 display-title">Use Case</h2>
+          <h2 class="display-4 display-title">Для чего</h2>
         </div>
 
         <!-- begin of carousel-swiper-beta -->
@@ -437,7 +431,7 @@
           <div class="slider-container swiper-container">
             <ul class="item-list swiper-wrapper">
               <!-- item -->
-              <li class="slide-item swiper-slide" data-hash="Marketing">
+              <li class="slide-item swiper-slide" data-hash="Маркетинг">
                 <div class="item row">
                   <!-- begin of illustration content -->
                   <div class="col-12 col-md-6 col-lg-7 order-md-1">
@@ -461,17 +455,16 @@
                     <div class="section-content">
                       <!-- title and description -->
                       <div class="title-desc">
-                        <h2 class="display-4 display-title anim fadein-top td-2 text-black">Unique Feature</h2>
-                        <p class="anim fadein-top td-3">This is a placeholder text. Replace it with your awesome call to action text. Develop stunning product
-                          website easily with this template.</p>
+                        <h2 class="display-4 display-title anim fadein-top td-2 text-black">Магазин</h2>
+                        <p class="anim fadein-top td-3">Простой способ для начала собственного малого бизнеса в сети.</p>
                         <div class="row anim fadein-top td-4">
                           <div class="col-12 mb-3">
                             <div class="">
-                              <h4 class="border-primary text-primary">Marketing Page</h4>
+                              <h4 class="border-primary text-primary">Используемые модули</h4>
                               <ul class="list-primary">
-                                <li>Based on Bootstrap 4</li>
-                                <li>Modern and creative</li>
-                                <li>Optimized for mobile devices</li>
+                                <li>Магазин</li>
+                                <li>Оплата</li>
+                                <li>Доставка</li>
                               </ul>
                             </div>
                           </div>
@@ -480,11 +473,11 @@
 
                       <!-- Action button -->
                       <div class="btns-action anim fadein-bottom td-2">
-                        <a class="btn btn-primary bg-gradient-primary btn-round no-border btn-shadow" href="index.html#download">
+<!--                         <a class="btn btn-primary bg-gradient-primary btn-round no-border btn-shadow" href="index.html#download">
                           <span class="txt">Get it now</span>
-                        </a>
+                        </a> -->
                         <a class="btn btn-outline-primary btn-round" href="index.html#features">
-                          Features
+                          Скачать сборку
                         </a>
                       </div>
                     </div>
@@ -493,7 +486,7 @@
                 </div>
               </li>
               <!-- item -->
-              <li class="slide-item swiper-slide" data-hash="Events">
+              <li class="slide-item swiper-slide" data-hash="Блог">
                 <div class="item row">
                   <!-- begin of illustration content -->
                   <div class="col-12 col-md-6 col-lg-7 order-md-1">
@@ -517,17 +510,16 @@
                     <div class="section-content anim">
                       <!-- title and description -->
                       <div class="title-desc">
-                        <h2 class="display-4 display-title anim fadein-top td-2 text-black">Selling Points</h2>
-                        <p class="anim fadein-top td-3">This is a placeholder text. Replace it with your awesome call to action text. Develop stunning product
-                          website easily with this template.</p>
+                        <h2 class="display-4 display-title anim fadein-top td-2 text-black">Пиши что пожелаешь</h2>
+                        <p class="anim fadein-top td-3">Отличный повод заняться освещением новостной ленты, бренда или кумира. Выбери тему и не останавливайся.</p>
                         <div class="row anim fadein-top td-4">
                           <div class="col-12 mb-3">
                             <div class="">
-                              <h4 class="border-primary text-primary">Event Page</h4>
+                              <h4 class="border-primary text-primary">Что нужно</h4>
                               <ul class="list-primary">
-                                <li>Based on Bootstrap 4</li>
-                                <li>Modern and creative</li>
-                                <li>Optimized for mobile devices</li>
+                                <li>Блог</li>
+                                <li>Редактор страниц</li>
+                                <li>Рассылка</li>
                               </ul>
                             </div>
                           </div>
@@ -536,11 +528,11 @@
 
                       <!-- Action button -->
                       <div class="btns-action anim fadein-bottom td-2">
-                        <a class="btn btn-primary bg-gradient-primary btn-round no-border btn-shadow" href="index.html#download">
+<!--                         <a class="btn btn-primary bg-gradient-primary btn-round no-border btn-shadow" href="index.html#download">
                           <span class="txt">Get it now</span>
-                        </a>
+                        </a> -->
                         <a class="btn btn-outline-primary btn-round" href="index.html#features">
-                          Features
+                          Скачать сборку
                         </a>
                       </div>
                     </div>
@@ -549,7 +541,7 @@
                 </div>
               </li>
               <!-- item -->
-              <li class="slide-item swiper-slide" data-hash="App page">
+              <li class="slide-item swiper-slide" data-hash="Реклама">
                 <div class="item row">
                   <!-- begin of illustration content -->
                   <div class="col-12 col-md-6 col-lg-7 order-md-1">
@@ -573,17 +565,16 @@
                     <div class="section-content anim">
                       <!-- title and description -->
                       <div class="title-desc">
-                        <h2 class="display-4 display-title anim fadein-top td-2 text-black">Awesome Page</h2>
-                        <p class="anim fadein-top td-3">This is a placeholder text. Replace it with your awesome call to action text. Develop stunning product
-                          website easily with this template.</p>
+                        <h2 class="display-4 display-title anim fadein-top td-2 text-black">Лэндинг</h2>
+                        <p class="anim fadein-top td-3">Создай страницу для рекламы своей продукции или услуги. Намного быстрее и проще, чем создавать магазин.</p>
                         <div class="row anim fadein-top td-4">
                           <div class="col-12 mb-3">
                             <div class="">
                               <h4 class="border-primary text-primary">Landing Page</h4>
                               <ul class="list-primary">
-                                <li>Based on Bootstrap 4</li>
-                                <li>Modern and creative</li>
-                                <li>Optimized for mobile devices</li>
+                                <li>Ядро</li>
+                                <li>Редактор страниц</li>
+                                <li>Контакты</li>
                               </ul>
                             </div>
                           </div>
@@ -592,11 +583,11 @@
 
                       <!-- Action button -->
                       <div class="btns-action anim fadein-bottom td-2">
-                        <a class="btn btn-primary bg-gradient-primary btn-round no-border btn-shadow" href="index.html#download">
+<!--                         <a class="btn btn-primary bg-gradient-primary btn-round no-border btn-shadow" href="index.html#download">
                           <span class="txt">Get it now</span>
-                        </a>
+                        </a> -->
                         <a class="btn btn-outline-primary btn-round" href="index.html#features">
-                          Features
+                          Скачать сборку
                         </a>
                       </div>
                     </div>
@@ -653,9 +644,8 @@
                         <i class="icon text-primary text-gradient-primary ion ion-code-working"></i>
                       </div>
                       <div class="media-body">
-                        <h4 class="text-primary">Media Element</h4>
-                        <p>This is a Bootstrap 4 Media object. Use it to showcase a feature or replace it with your awesome
-                          call to action text.
+                        <h4 class="text-primary">Медиа элементы</h4>
+                        <p>Используя Bootstrap 4 в зависимости от разрешения экрана, можно скрыть или наоборот показать нужные элементы.
                         </p>
                       </div>
                     </div>
@@ -668,9 +658,8 @@
                         <i class="icon text-primary text-gradient-primary ion ion-podium"></i>
                       </div>
                       <div class="media-body">
-                        <h4 class="text-primary">Multi-Variants</h4>
-                        <p>This is a Bootstrap 4 Media object. Use it to showcase a feature or replace it with your awesome
-                          call to action text.
+                        <h4 class="text-primary">Большой выбор</h4>
+                        <p>Фреймворк содержит в себе огромное количество всевозможных компонентов которые могут понадобятся на странице вашего сайта.
                         </p>
                       </div>
                     </div>
@@ -683,10 +672,8 @@
                         <i class="icon text-primary text-gradient-primary ion ion-shuffle"></i>
                       </div>
                       <div class="media-body">
-                        <h4 class="text-primary">Fully Customizable</h4>
-                        <p>This is a Bootstrap 4 Media object. Use it to showcase a feature or replace it with your awesome
-                          call to action text.
-                        </p>
+                        <h4 class="text-primary">Гибкость настройки</h4>
+                        <p>Для мастеров своего дела есть возможность собрать фреймворк самостоятельно посредством использования систем сборки.</p>
                       </div>
                     </div>
                   </div>
@@ -726,25 +713,25 @@
             <div class="section-content anim">
               <!-- title and description -->
               <div class="title-desc">
-                <h2 class="display-4 display-title sr-up-td2">Unique Feature</h2>
+                <h2 class="display-4 display-title sr-up-td2">Уникальные решения</h2>
                 <div class="sr-up-td3">
-                  <p>This is a placeholder text. Replace it with your awesome call to action text.</p>
+                  <p>Для высоко нагруженных проектов есть возможность использовать только нужные классы, получая таким образом малый размер стилей.</p>
                 </div>
                 <div class="row sr-up-td4">
                   <div class="col-12 col-md-6 mb-3">
                     <div class="">
-                      <h4 class="border-primary text-primary">Simple List</h4>
+                      <h4 class="border-primary text-primary">Простой список</h4>
                       <ul class="list-primary">
-                        <li>Based on Bootstrap 4</li>
-                        <li>Modern and creative</li>
-                        <li>Optimized for mobile devices</li>
+                        <li>Основа стилей Bootstrap 4</li>
+                        <li>Современно и креативно</li>
+                        <li>Оптимизировано для мобильных</li>
                       </ul>
                     </div>
                   </div>
                   <div class="col-12 col-md-6 mb-3">
                     <div class="">
-                      <h4 class="border-primary text-primary">Text Only</h4>
-                      <p>Develop stunning app and website easily with this template</p>
+                      <h4 class="border-primary text-primary">Только текст</h4>
+                      <p>Он был не из тех с кем хотелось бы дружить сразу</p>
                     </div>
                   </div>
                 </div>
@@ -752,11 +739,11 @@
 
               <!-- Action button -->
               <div class="btns-action sr-down-td2">
-                <a class="btn btn-primary bg-gradient-primary btn-round no-border btn-shadow" href="index.html#download">
+<!--                 <a class="btn btn-primary bg-gradient-primary btn-round no-border btn-shadow" href="index.html#download">
                   <span class="txt">Get it now</span>
-                </a>
+                </a> -->
                 <a class="btn btn-outline-primary btn-round" href="index.html#features">
-                  Features
+                  Скачать
                 </a>
               </div>
             </div>
@@ -778,8 +765,8 @@
       <div class="section-wrapper twoside padding-top padding-bottom">
         <!-- title -->
         <div class="section-title text-center">
-          <h2 class="display-4 display-title">More Features</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet malesuada feugiat.</p>
+          <h2 class="display-4 display-title">Больше возможностей</h2>
+          <p>Разработчики долго преследовали орнажевого колобка расхитителя гробниц. Настигли они его только к вечеру на опушке леса. Но как выяснилось не он украл тот апельсин.</p>
         </div>
 
         <!-- text or illustration order are manipulated via Bootstrap order-md-1, order-md-2 class -->
@@ -795,9 +782,8 @@
                   <img class="icon" src="img/icons/icon1.svg" alt="An image">
                 </div>
                 <div class="media-body">
-                  <h4>Responsive</h4>
-                  <p>Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra
-                    turpis.</p>
+                  <h4>Адаптивность</h4>
+                  <p>В зависимости от размера окна или экрана контент подстроится для удобства просмотра.</p>
                 </div>
               </div>
               <!-- a media object -->
@@ -806,9 +792,8 @@
                   <img class="icon" src="img/icons/icon2.svg" alt="An image">
                 </div>
                 <div class="media-body">
-                  <h4>Framework</h4>
-                  <p>Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra
-                    turpis.</p>
+                  <h4>Фреймворк</h4>
+                  <p>Свободный набор инструментов для создания сайтов и веб-приложений.</p>
                 </div>
               </div>
               <!-- a media object -->
@@ -817,9 +802,8 @@
                   <img class="icon" src="img/icons/icon3.svg" alt="An image">
                 </div>
                 <div class="media-body">
-                  <h4>Modern</h4>
-                  <p>Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra
-                    turpis.</p>
+                  <h4>Современно</h4>
+                  <p>Включает в себя HTML- и CSS-шаблоны оформления для типографики, веб-форм, кнопок, меток, блоков навигации и прочих компонентов веб-интерфейса, включая JavaScript-расширения.</p>
                 </div>
               </div>
             </div>
@@ -837,8 +821,7 @@
                 </div>
                 <div class="media-body">
                   <h4>Flexbox</h4>
-                  <p>Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra
-                    turpis.</p>
+                  <p>Новый способ располагать блоки на странице. Это технология, созданная именно для раскладки элементов, в отличие от float-ов.</p>
                 </div>
               </div>
               <!-- a media object -->
@@ -847,9 +830,8 @@
                   <i class="icon fa fa-code"></i>
                 </div>
                 <div class="media-body">
-                  <h4>Prebuild</h4>
-                  <p>Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra
-                    turpis.</p>
+                  <h4>Сборки</h4>
+                  <p>Скачай сборку под свою задачу не теряя время на собственноручную  настройку.</p>
                 </div>
               </div>
               <!-- a media object -->
@@ -858,9 +840,8 @@
                   <i class="icon fa fa-arrows-alt"></i>
                 </div>
                 <div class="media-body">
-                  <h4>Mobile ready</h4>
-                  <p>Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra
-                    turpis.</p>
+                  <h4>Управляй везде</h4>
+                  <p>Открой админ панель и управляй сайтом также как и на компьютере.</p>
                 </div>
               </div>
             </div>
@@ -890,8 +871,8 @@
                   <div class="section-content center-vh">
                     <!-- title and description -->
                     <div class="title-desc text-center">
-                      <p class="anim fadein-top td-2 display-5">"This Landing page is awesome"</p>
-                      <p class="anim fadein-top td-3">Tim Gates, Micromac</p>
+                      <p class="anim fadein-top td-2 display-5">"Это просто восхительно, насколько всё продумано!"</p>
+                      <p class="anim fadein-top td-3">Аксель Вайспер, дизайнер He6oru</p>
                     </div>
                   </div>
                 </div>
@@ -902,8 +883,8 @@
                   <div class="section-content center-vh">
                     <!-- title and description -->
                     <div class="title-desc text-center">
-                      <p class="anim fadein-top td-2 display-5">"It saved us a lot of times"</p>
-                      <p class="anim fadein-top td-3">Jeff Ma, Alizon</p>
+                      <p class="anim fadein-top td-2 display-5">"Сэкономила кучу времени используя данную систему"</p>
+                      <p class="anim fadein-top td-3">Евгения, менеджер Ализон</p>
                     </div>
                   </div>
                 </div>
@@ -914,8 +895,8 @@
                   <div class="section-content center-vh">
                     <!-- title and description -->
                     <div class="title-desc text-center">
-                      <p class="anim fadein-top td-2 display-5">"We set up our landing page in hour"</p>
-                      <p class="anim fadein-top td-3">Dave Johnson, Homecraft</p>
+                      <p class="anim fadein-top td-2 display-5">"Создавать новые темы одно удовольствие"</p>
+                      <p class="anim fadein-top td-3">Денис, верстальщик Озон</p>
                     </div>
                   </div>
                 </div>
@@ -933,16 +914,14 @@
     </div>
     <!-- End of features section -->
     <!-- Begin of pricelist section -->
-    <div class="section section-pricelist bg-white bg-bright" data-section="calltoaction" id="pricing">
+    <div class="section section-pricelist bg-white bg-bright" data-section="calltoaction"
+    id="pricing">
       <!-- Begin of section wrapper -->
       <div class="section-wrapper padding-top padding-bottom">
         <!-- title -->
         <div class="section-title text-center">
-          <h5>Download Now</h5>
-          <h2 class="display-4 display-title">Plans &amp; Pricing</h2>
-          <p>A
-            <strong>Bootstrap 4</strong>based UI Kit. Use only custom CSS only for more complex implementations.
-          </p>
+          <h5>Загрузки</h5>
+          <h2 class="display-4 display-title"Услуги и Цены</h2>
         </div>
 
         <!-- content -->
@@ -954,23 +933,23 @@
               <div class="col-12 col-md-4">
                 <!-- begin of price item -->
                 <div class="price-item-alpha price-item-secondary shadow mb-4 sr-up-td4">
-                  <h4 class="item-name">Lite</h4>
-                  <div class="item-price">Free</div>
+                  <h4 class="item-name">Лайм</h4>
+                  <div class="item-price">Бесплатно</div>
                   <ul class="item-features text-left">
                     <li class="ok">
-                      <i class="icon fa fa-star"></i>Full Components</li>
+                      <i class="icon fa fa-star"></i>Базовая версия</li>
                     <li class="ok">
-                      <i class="icon fa fa-check"></i>Future Updates</li>
+                      <i class="icon fa fa-check"></i>Обновления</li>
                     <li class="ok">
-                      <i class="icon fa fa-check"></i>Documentation</li>
+                      <i class="icon fa fa-check"></i>Документация</li>
                     <li class="ok">
-                      <i class="icon fa fa-check"></i>Customer Support</li>
+                      <i class="icon fa fa-check"></i>Сообщество</li>
                     <li class="diseabled">
-                      <i class="icon fa fa-remove"></i>Cool Option</li>
+                      <i class="icon fa fa-remove"></i>Поддержка 24/7</li>
                   </ul>
                   <div class="item-footer">
                     <a class="btn btn-secondary btn-round" href="index.html#services">
-                      Download
+                      Скачать
                     </a>
                   </div>
                 </div>
@@ -980,23 +959,23 @@
               <div class="col-12 col-md-4">
                 <!-- begin of price item -->
                 <div class="price-item-alpha featured price-item-primary shadow mb-4 sr-up-td2">
-                  <h4 class="item-name">Standard</h4>
-                  <div class="item-price">$24</div>
+                  <h4 class="item-name">Апельсин</h4>
+                  <div class="item-price">5990₽</div>
                   <ul class="item-features text-left">
                     <li class="ok">
-                      <i class="icon fa fa-star"></i>Full Components</li>
+                      <i class="icon fa fa-star"></i>Все компоненты</li>
                     <li class="ok">
-                      <i class="icon fa fa-check"></i>Future Updates</li>
+                      <i class="icon fa fa-check"></i>Обновления</li>
                     <li class="ok">
-                      <i class="icon fa fa-check"></i>Documentation</li>
+                      <i class="icon fa fa-check"></i>Документация</li>
                     <li class="ok">
-                      <i class="icon fa fa-check"></i>Customer Support</li>
+                      <i class="icon fa fa-check"></i>Поддержка 24/7</li>
                     <li class="diseabled">
-                      <i class="icon fa fa-remove"></i>Cool Option</li>
+                      <i class="icon fa fa-check"></i>Новшества</li>
                   </ul>
                   <div class="item-footer">
                     <a class="btn btn-primary btn-round" href="index.html#services">
-                      Purchase
+                      Купить
                     </a>
                   </div>
                 </div>
@@ -1006,23 +985,23 @@
               <div class="col-12 col-md-4">
                 <!-- begin of price item -->
                 <div class="price-item-alpha price-item-primary shadow sr-up-td3">
-                  <h4 class="item-name">Ultimate</h4>
-                  <div class="item-price">$39</div>
+                  <h4 class="item-name">Грейпфрукт</h4>
+                  <div class="item-price">39900₽</div>
                   <ul class="item-features text-left">
                     <li class="ok">
-                      <i class="icon fa fa-star"></i>Full Components</li>
+                      <i class="icon fa fa-star"></i>Решение под ключ</li>
                     <li class="ok">
-                      <i class="icon fa fa-check"></i>Future Updates</li>
+                      <i class="icon fa fa-check"></i>Обновления</li>
                     <li class="ok">
-                      <i class="icon fa fa-check"></i>Documentation</li>
+                      <i class="icon fa fa-check"></i>Личный менеджер</li>
                     <li class="ok">
-                      <i class="icon fa fa-check"></i>Customer Support</li>
+                      <i class="icon fa fa-check"></i>Полная свобода</li>
                     <li class="diseabled">
-                      <i class="icon fa fa-remove"></i>Cool Option</li>
+                      <i class="icon fa fa-check"></i>Для самых ленивых)</li>
                   </ul>
                   <div class="item-footer">
                     <a class="btn btn-primary btn-round" href="index.html#services">
-                      Subscribe
+                      Заказать
                     </a>
                   </div>
                 </div>
@@ -1040,14 +1019,14 @@
     <!-- End of pricelist section -->
 
     <!-- Begin of call to action section -->
-    <div class="section section-description bg-secondary bg-gradient-secondary landing-cta" data-section="calltoaction" id="download">
+    <div class="section section-description bg-secondary bg-gradient-secondary landing-cta"
+    data-section="calltoaction" id="download">
       <!-- Begin of section wrapper -->
       <div class="section-wrapper padding-top padding-bottom">
         <!-- title -->
         <div class="section-title text-center">
-          <h2 class="display-4 display-title">Download now</h2>
-          <p>Here are sample items that you can embed within a call to action section: Play icon, regular buttons, play store
-            &amp; app store official buttons and subscription form.</p>
+          <h2 class="display-4 display-title">Загрузка</h2>
+          <p>Сохраните архив в любую папку,<br> после распакуйте на хостинг в папку /html_public/ <br>(возможно другое название папки, зависит от хостинга)<br><br>После откройте адрес вашего сайта для запуска установки</p>
         </div>
 
         <!-- content -->
@@ -1057,14 +1036,14 @@
 
 
           <!-- App Store / Play Store buttons -->
-          <div class="btns-action mt-4 sr-zoomin-td3">
+<!--           <div class="btns-action mt-4 sr-zoomin-td3">
             <a href="index.html#">
               <img src="img/btns/app-store.png" alt="Download App store">
             </a>
             <a href="index.html#">
               <img src="img/btns/play-store.png" alt="Download Play store">
             </a>
-          </div>
+          </div> -->
 
 
 
@@ -1076,7 +1055,7 @@
                   <i class="fa fa-download text-primary text-gradient-secondary"></i>
                 </span>
               </span>
-              <span class="text">Download</span>
+              <span class="text">Скачать</span>
             </a>
           </div>
 
@@ -1100,30 +1079,30 @@
                 <div class="col-12">
                   <a class="navbar-brand" href="index.html">
                     <img src="img/logo_dark.png" alt="Title">
-                    <h3 class="text">Landeux</h3>
+                    <h3 class="text">SX CMS</h3>
                   </a>
                 </div>
                 <div class="col-12 nav-container">
                   <ul class="navbar-nav text-primary">
                     <li class="nav-item active">
-                      <a href="index.html#">Gallery</a>
+                      <a href="index.html#">Скриншоты</a>
                     </li>
                     <li class="nav-item">
-                      <a href="index.html#">Products</a>
+                      <a href="index.html#">Дополнения</a>
                     </li>
+<!--                     <li class="nav-item">
+                      <a href="index.html#">Контакты</a>
+                    </li> -->
                     <li class="nav-item">
-                      <a href="index.html#">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="index.html#">About</a>
+                      <a href="index.html#">Авторы</a>
                     </li>
                   </ul>
                 </div>
                 <div class="social-icons col-12">
                   <ul class="socials-nav">
                     <li>
-                      <a>
-                        <i class="icon fa fa-facebook"></i>
+                      <a href="https://vk.com/sx_cms" target="_blank">
+                        <i class="icon fa fa-vk"></i>
                       </a>
                     </li>
                     <li>
@@ -1133,7 +1112,7 @@
                     </li>
                     <li>
                       <a>
-                        <i class="icon fa fa-linkedin"></i>
+                        <i class="icon fa fa-youtube"></i>
                       </a>
                     </li>
                     <li>
@@ -1144,11 +1123,12 @@
                   </ul>
                 </div>
                 <div class="col-12">
-                  <p>© Website made by
-                    <a href="../../index.html">
-                      <span class="marked">Mivfx</span>
-                    </a>- contact@address.com</p>
+                  <p>© оформление страницы
+                    <a href="https://vk.com/axelvaisper">
+                      <span class="marked">Axelvaisper</span>
+                    </a></p>
                 </div>
+
               </div>
             </nav>
           </footer>
@@ -1158,43 +1138,13 @@
     </div>
     <!-- End of footer section -->
   </main>
-  <!-- END OF page main content -->
 
-
-
-  <!-- scripts -->
-  <!-- All Javascript plugins goes here -->
   <!--		<script src="//code.jquery.com/jquery-1.12.4.min.js"></script>-->
   <script src="js/vendor/scrollreveal.min.js"></script>
   <script src="js/vendor/scrollreveal-anim.js"></script>
   <script src="js/vendor/jquery-1.12.4.min.js"></script>
-
-  <!-- All vendor scripts -->
   <script src="js/vendor/all.js"></script>
-  <script src="js/particlejs/particles.min.js"></script>
-
-  <!-- Countdown script -->
-  <script src="js/jquery.downCount.js"></script>
-
-  <!-- Form script -->
-  <script src="js/form_script.js"></script>
-
-  <!-- Javascript main files -->
   <script src="js/main.js"></script>
 
-  <!-- Google Analytics: Uncomment and change UA-XXXXX-X to be your site"s ID. -->
-  <!--<script>
-	(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-	function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-	e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-	e.src="//www.google-analytics.com/analytics.js";
-	r.parentNode.insertBefore(e,r)}(window,document,"script","ga"));
-	ga("create","UA-XXXXX-X");ga("send","pageview");
-</script>-->
-
-  <!-- Uncomment below to enable particles scripts -->
-  <!--<script src="./js/particlejs/particles-init.js"></script>-->
-  <!--<script src="./js/particlejs/particles-init-snow.js"></script>-->
 </body>
-
 </html>

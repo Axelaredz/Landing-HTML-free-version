@@ -1,0 +1,8 @@
+/*Ionicons, v2.0.0*/
+@font-face{font-family:'Ionicons';font-weight:normal;font-style:normal;src:url('ionicons.eot%3Fv=2.0.0');src:url('ionicons.eot%3Fv=2.0.0') format('embedded-opentype'),url('ionicons.ttf%3Fv=2.0.0') format('truetype'),url('ionicons.woff%3Fv=2.0.0') format('woff'),url('ionicons.svg%3Fv=2.0.0') format('svg');}
+.ion,.ion-code:before,.ion-code-working:before,.ion-podium:before,.ion-shuffle:before,.ion-wrench:before{font-family:'Ionicons';font-weight:normal;font-style:normal;font-variant:normal;line-height:1;display:inline-block;text-transform:none;speak:none;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+.ion-code:before{content:'\f271';}
+.ion-code-working:before{content:'\f270';}
+.ion-podium:before{content:'\f344';}
+.ion-shuffle:before{content:'\f221';}
+.ion-wrench:before{content:'\f2ba';}

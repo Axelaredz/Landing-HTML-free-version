@@ -1,10 +1,6 @@
 'use strict';
-// var mainDocument = $(document);
 
-// init foundation
-// $(document).foundation();
-
-// Init all plugin when document is ready 
+// Init all plugin when document is ready
 $(document).on('ready', function () {
   // 0. Init console to avoid error
   var method;
@@ -25,35 +21,6 @@ $(document).on('ready', function () {
     if (!console[method]) {
       console[method] = noop;
     }
-  }
-
-  // 1. Background image as data attribut 
-  var list = $('.bg-img');
-  for (var i = 0; i < list.length; i++) {
-    var src = list[i].getAttribute('data-image-src');
-    list[i].style.backgroundImage = "url('" + src + "')";
-    list[i].style.backgroundRepeat = "no-repeat";
-    list[i].style.backgroundPosition = "center";
-    list[i].style.backgroundSize = "cover";
-  }
-  // Background color as data attribut
-  var list = $('.bg-color');
-  for (var i = 0; i < list.length; i++) {
-    var src = list[i].getAttribute('data-bgcolor');
-    list[i].style.backgroundColor = src;
-  }
-
-  // 2. Init Coutdown clock
-  try {
-    // check if clock is initialised
-    $('.clock-countdown').downCount({
-      date: $('.site-config').attr('data-date'),
-      offset: +10
-    });
-  }
-  catch (error) {
-    // Clock error : clock is unavailable
-    console.log("clock disabled/unavailable");
   }
 
   // 3. Navigation menu
@@ -144,28 +111,6 @@ $(document).on('ready', function () {
     spaceBetween: 0,
   });
 
-  // contact form
-  var sendEmailForm = $('.send_email_form');
-  var sendMessageForm = $('.send_message_form');
-  // Default server url
-  var newsletterServerUrl = './ajaxserver/serverfile.php';
-  var messageServerUrl = './ajaxserver/serverfile.php';
-
-  // Use form define action attribute
-  if (sendEmailForm.attr('action') && (sendEmailForm.attr('action')) != '') {
-    newsletterServerUrl = sendEmailForm.attr('action');
-  }
-  if (sendMessageForm.attr('action') && (sendMessageForm.attr('action') != '')) {
-    messageServerUrl = sendMessageForm.attr('action');
-  }
-
-  sendEmailForm.initForm({
-    serverUrl: newsletterServerUrl,
-  });
-  sendMessageForm.initForm({
-    serverUrl: messageServerUrl,
-  });
-
   // 8. Hide some ui on scroll
   var scrollHeight = $(document).height() - contextWindow.height();
   contextWindow.on('scroll', function () {
@@ -181,13 +126,4 @@ $(document).on('ready', function () {
     }
   });
 
-
-
-  // 9. Page Loader : hide loader when all are loaded
-  contextWindow.on('load', function () {
-    $('#page-loader').addClass('p-hidden');
-    $('.section').addClass('anim');
-  });
-
 });
-
