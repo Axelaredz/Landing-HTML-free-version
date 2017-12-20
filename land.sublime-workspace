@@ -1,0 +1,532 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"l",
+				"left"
+			],
+			[
+				"table",
+				"table-cell"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"text",
+				"text-decoration"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "i",
+		"selected_items":
+		[
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"git",
+				"git: status"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"loca",
+				"LocalizedMenu: Русский (ru)"
+			],
+			[
+				"sma",
+				"Set Syntax: Smarty"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 537.0
+	},
+	"console":
+	{
+		"height": 124.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/axelvaisper/git/Landing-HTML-free-version"
+	],
+	"file_history":
+	[
+		"/home/axelvaisper/git/Landing-HTML-free-version/index.html",
+		"/home/axelvaisper/pixinvent.com/materialize-material-design-admin-template/html/semi-dark-menu/index.html",
+		"/home/axelvaisper/git/Landing-HTML-free-version/LICENSE",
+		"/home/axelvaisper/rip/landeux/index.html",
+		"/home/axelvaisper/rip/landeux/css/main.css",
+		"/home/axelvaisper/rip/landeux/fonts/font-awesome.min.css",
+		"/home/axelvaisper/rip/landeux/js/main.js",
+		"/home/axelvaisper/rip/landeux/js/vendor/all.js",
+		"/home/axelvaisper/rip/landeux/js/form_script.js",
+		"/home/axelvaisper/rip/landeux/js/jquery.downCount.js",
+		"/home/axelvaisper/git/Landing-HTML-free-version/build/css/index.css",
+		"/home/axelvaisper/rip/landeux/css/bootstrap.min.css",
+		"/home/axelvaisper/rip/landeux/fonts/ionicons.min.css",
+		"/home/axelvaisper/git/Landing-HTML-free-version/build/index.html",
+		"/home/axelvaisper/git/Landing-HTML-free-version/gulpfile.js",
+		"/home/axelvaisper/git/Landing-HTML-free-version/build/js/vendor/all.js",
+		"/home/axelvaisper/rip/highhay.com/demos/landeux/index.html",
+		"/home/axelvaisper/git/Landing-HTML-free-version/src/index.html",
+		"/home/axelvaisper/rip/highhay.com/demos/landeux/css/pageloader.css",
+		"/home/axelvaisper/git/Landing-HTML-free-version/build/index.css",
+		"/home/axelvaisper/git/Landing-HTML-free-version/build/bootstrap.min.css",
+		"/home/axelvaisper/git/Landing-HTML-free-version/css/index.css",
+		"/home/axelvaisper/git/Landing-HTML-free-version/css/main.css",
+		"/home/axelvaisper/git/Landing-HTML-free-version/css/bootstrap.min.css",
+		"/home/axelvaisper/git/Landing-HTML-free-version/css/pageloader.css",
+		"/home/axelvaisper/git/csssr-project-template-master/webpack.conf.js",
+		"/home/axelvaisper/git/csssr-project-template-master/app/pages/index.jade",
+		"/home/axelvaisper/git/csssr-project-template-master/app/blocks/layout-default/layout-default.jade",
+		"/home/axelvaisper/git/csssr-project-template-master/app/scripts/app.js",
+		"/home/axelvaisper/git/csssr-project-template-master/app/blocks/page/page.jade",
+		"/home/axelvaisper/git/csssr-project-template-master/app/blocks/head/head.jade",
+		"/home/axelvaisper/git/gulp-lesson-master/src/index.html",
+		"/home/axelvaisper/git/gulp-lesson-master/.bowerrc",
+		"/home/axelvaisper/git/gulp-lesson-master/.gitignore",
+		"/home/axelvaisper/git/gulp-lesson-master/node_modules/browserslist/README.md",
+		"/home/axelvaisper/git/gulp-lesson-master/node_modules/bs-recipes/recipes/grunt.html.injection/Gruntfile.js",
+		"/home/axelvaisper/git/gulp-lesson-master/node_modules/bs-recipes/recipes/grunt.html.injection/readme.md",
+		"/home/axelvaisper/git/gulp-lesson-master/node_modules/bs-recipes/recipes/grunt.sass/Gruntfile.js",
+		"/home/axelvaisper/git/gulp-lesson-master/node_modules/bs-recipes/recipes/grunt.sass/readme.md",
+		"/home/axelvaisper/git/gulp-lesson-master/node_modules/bs-recipes/recipes/grunt.sass.autoprefixer/Gruntfile.js",
+		"/home/axelvaisper/git/gulp-lesson-master/node_modules/bs-recipes/recipes/grunt.sass.autoprefixer/desc.md",
+		"/home/axelvaisper/git/gulp-lesson-master/node_modules/bs-recipes/recipes/grunt.sass.autoprefixer/readme.md",
+		"/home/axelvaisper/git/gulp-lesson-master/node_modules/bs-recipes/recipes/gulp.browserify/gulpfile.js",
+		"/home/axelvaisper/git/gulp-lesson-master/node_modules/bs-recipes/recipes/gulp.browserify/readme.md",
+		"/home/axelvaisper/git/gulp-lesson-master/node_modules/bs-recipes/recipes/gulp.pug/gulpfile.js",
+		"/home/axelvaisper/git/gulp-lesson-master/node_modules/bs-recipes/recipes/gulp.pug/readme.md",
+		"/home/axelvaisper/git/gulp-lesson-master/node_modules/bs-recipes/recipes/gulp.ruby.sass/gulpfile.js",
+		"/home/axelvaisper/git/gulp-lesson-master/node_modules/bs-recipes/recipes/gulp.ruby.sass/readme.md",
+		"/home/axelvaisper/git/gulp-lesson-master/node_modules/bs-recipes/recipes/gulp.ruby.sass/app/css/main.css.map",
+		"/home/axelvaisper/git/gulp-lesson-master/node_modules/bs-recipes/recipes/gulp.sass/gulpfile.js",
+		"/home/axelvaisper/git/gulp-lesson-master/node_modules/bs-recipes/recipes/gulp.sass/readme.md",
+		"/home/axelvaisper/git/gulp-lesson-master/node_modules/bs-recipes/recipes/gulp.swig/gulpfile.js",
+		"/home/axelvaisper/git/gulp-lesson-master/node_modules/bs-recipes/recipes/gulp.swig/readme.md",
+		"/home/axelvaisper/git/gulp-lesson-master/node_modules/bs-recipes/recipes/gulp.task.sequence/gulpfile.js",
+		"/home/axelvaisper/git/gulp-lesson-master/node_modules/bs-recipes/recipes/gulp.task.sequence/readme.md",
+		"/home/axelvaisper/git/gulp-lesson-master/node_modules/bs-recipes/recipes/html.injection/app.js",
+		"/home/axelvaisper/git/gulp-lesson-master/node_modules/bs-recipes/recipes/html.injection/readme.md",
+		"/home/axelvaisper/git/gulp-lesson-master/node_modules/bs-recipes/recipes/middleware.css.injection/app.js",
+		"/home/axelvaisper/git/gulp-lesson-master/node_modules/bs-recipes/recipes/middleware.css.injection/desc.md",
+		"/home/axelvaisper/git/gulp-lesson-master/node_modules/bs-recipes/recipes/middleware.css.injection/readme.md",
+		"/home/axelvaisper/git/gulp-lesson-master/node_modules/bs-recipes/recipes/proxy.custom-css/app.js",
+		"/home/axelvaisper/git/gulp-lesson-master/node_modules/bs-recipes/recipes/proxy.custom-css/desc.md",
+		"/home/axelvaisper/git/gulp-lesson-master/node_modules/bs-recipes/recipes/proxy.custom-css/readme.md",
+		"/home/axelvaisper/git/gulp-lesson-master/node_modules/bs-recipes/recipes/server/app.js",
+		"/home/axelvaisper/git/gulp-lesson-master/node_modules/bs-recipes/recipes/server/readme.md",
+		"/home/axelvaisper/git/gulp-lesson-master/node_modules/bs-recipes/recipes/server.gzipped.assets/app.js",
+		"/home/axelvaisper/git/gulp-lesson-master/node_modules/bs-recipes/recipes/server.gzipped.assets/readme.md",
+		"/home/axelvaisper/git/gulp-lesson-master/node_modules/bs-recipes/recipes/server.includes/app.js",
+		"/home/axelvaisper/git/gulp-lesson-master/node_modules/bs-recipes/recipes/server.includes/readme.md",
+		"/home/axelvaisper/git/gulp-lesson-master/node_modules/bs-recipes/recipes/server.includes/app/index.html",
+		"/home/axelvaisper/git/gulp-lesson-master/node_modules/bs-recipes/recipes/server.middleware/app.js",
+		"/home/axelvaisper/git/gulp-lesson-master/node_modules/bs-recipes/recipes/server.middleware/readme.md",
+		"/home/axelvaisper/git/gulp-lesson-master/node_modules/bs-recipes/recipes/webpack.babel/app.js",
+		"/home/axelvaisper/git/gulp-lesson-master/node_modules/bs-recipes/recipes/webpack.babel/readme.md",
+		"/home/axelvaisper/git/gulp-lesson-master/node_modules/bs-recipes/recipes/webpack.monkey-hot-loader/app.js",
+		"/home/axelvaisper/git/gulp-lesson-master/node_modules/bs-recipes/recipes/webpack.monkey-hot-loader/readme.md",
+		"/home/axelvaisper/git/gulp-lesson-master/node_modules/bs-recipes/recipes/webpack.preact-hot-loader/.npmignore",
+		"/home/axelvaisper/git/gulp-lesson-master/node_modules/bs-recipes/recipes/webpack.preact-hot-loader/app.js",
+		"/home/axelvaisper/git/gulp-lesson-master/node_modules/bs-recipes/recipes/webpack.preact-hot-loader/readme.md",
+		"/home/axelvaisper/git/gulp-lesson-master/node_modules/bs-recipes/recipes/webpack.react-transform-hmr/readme.md",
+		"/home/axelvaisper/git/gulp-lesson-master/node_modules/bs-recipes/recipes/webpack.typescript/app.js",
+		"/home/axelvaisper/git/gulp-lesson-master/node_modules/bs-recipes/recipes/webpack.typescript/readme.md",
+		"/home/axelvaisper/git/gulp-lesson-master/node_modules/bs-recipes/recipes/webpack.typescript.react/app.js",
+		"/home/axelvaisper/git/gulp-lesson-master/node_modules/bs-recipes/recipes/webpack.typescript.react/readme.md",
+		"/home/axelvaisper/git/gulp-lesson-master/node_modules/caniuse-api/node_modules/browserslist/README.md",
+		"/home/axelvaisper/git/gulp-lesson-master/node_modules/cssnano/node_modules/browserslist/README.md",
+		"/home/axelvaisper/git/gulp-lesson-master/node_modules/node-gyp/gyp/pylib/gyp/xcode_emulation.py",
+		"/home/axelvaisper/git/gulp-lesson-master/node_modules/node-gyp/gyp/samples/samples",
+		"/home/axelvaisper/git/gulp-lesson-master/node_modules/postcss/node_modules/source-map/README.md",
+		"/home/axelvaisper/git/gulp-lesson-master/node_modules/postcss-merge-rules/node_modules/browserslist/README.md",
+		"/home/axelvaisper/git/gulp-lesson-master/node_modules/sass-graph/node_modules/yargs/README.md",
+		"/home/axelvaisper/git/gulp-lesson-master/node_modules/source-map/README.md",
+		"/home/axelvaisper/git/gulp-lesson-master/node_modules/ua-parser-js/src/ua-parser.js",
+		"/home/axelvaisper/git/gulp-lesson-master/node_modules/ua-parser-js/test/mediaplayer-test.json",
+		"/home/axelvaisper/git/gulp-lesson-master/node_modules/ua-parser-js/test/os-test.json",
+		"/home/axelvaisper/git/gulp-lesson-master/node_modules/yargs/README.md",
+		"/home/axelvaisper/git/gulp-lesson-master/src/sass/libs.sass",
+		"/home/axelvaisper/git/gulp-lesson-master/node_modules/bs-recipes/recipes/webpack.react-transform-hmr/app.js",
+		"/home/axelvaisper/git/gulp-lesson-master/node_modules/bs-recipes/recipes/webpack.react-hot-loader/readme.md",
+		"/home/axelvaisper/git/gulp-lesson-master/node_modules/bs-recipes/recipes/webpack.react-hot-loader/app.js",
+		"/home/axelvaisper/git/Landing-HTML-free-version/package.json",
+		"/home/axelvaisper/git/gulp-lesson-master/package.json",
+		"/home/axelvaisper/git/gulp-lesson-master/gulpfile.js",
+		"/home/axelvaisper/.config/sublime-text-3/Packages/LocalizedMenu/Localize.py",
+		"/home/axelvaisper/.config/sublime-text-3/Packages/LocalizedMenu/menu/3156/en/Widget Context.sublime-menu.json",
+		"/opt/lampp/htdocs/wa-data/public/site/themes/unishop/unishop.css",
+		"/opt/lampp/htdocs/wa-data/public/shop/themes/unishop/unishop.shop.css",
+		"/opt/lampp/htdocs/wa-data/public/shop/themes/unishop/checkout.shipping.html",
+		"/opt/lampp/htdocs/wa-data/public/site/themes/unishop/colors.css",
+		"/opt/lampp/htdocs/wa-data/public/shop/themes/unishop/product.gallery.html",
+		"/opt/lampp/htdocs/wa-data/public/site/themes/unishop/index.html",
+		"/opt/lampp/htdocs/wa-data/public/shop/themes/unishop/footer.html",
+		"/opt/lampp/htdocs/wa-data/public/site/themes/oldsobrat/unishop.css",
+		"/opt/lampp/htdocs/wa-data/public/shop/themes/unishop/slider.html",
+		"/opt/lampp/htdocs/wa-data/public/shop/themes/unishop/product-preview-tile.html",
+		"/opt/lampp/htdocs/wa-data/public/site/themes/unishop/unishop.min.js",
+		"/home/axelvaisper/Документы/0soberistanok/темы сайта/unishop/site unishop/unishop.min.js",
+		"/home/axelvaisper/Документы/0soberistanok/темы сайта/unishop/shopunishop/unishop.shop.min.js",
+		"/opt/lampp/htdocs/wa-data/public/shop/themes/unishop/unishop.shop.min.js",
+		"/opt/lampp/htdocs/wa-data/public/shop/themes/unishop/product.cart.html",
+		"/home/axelvaisper/Документы/0soberistanok/темы сайта/unishop/unishop.css",
+		"/home/axelvaisper/Документы/0soberistanok/темы сайта/unishop/unishop.shop.css",
+		"/opt/lampp/htdocs/wa-data/public/shop/themes/unishop/unishop.shop.js",
+		"/opt/lampp/htdocs/wa-data/public/shop/themes/oldsobrat/unishop.shop.js",
+		"/opt/lampp/htdocs/wa-data/public/site/themes/unishop/settings.html",
+		"/home/axelvaisper/Загрузки/mobile_legends_1.2.16.1983.apk_FILES/assets/Art/android/hero_warrior_skin.unity3d",
+		"/opt/lampp/htdocs/wa-data/public/shop/themes/unishop/head.html",
+		"/opt/lampp/htdocs/wa-data/public/site/themes/sobrat/index.html"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 132.0,
+		"where_history":
+		[
+			"/home/axelvaisper/git/Landing-HTML-free-version/css",
+			"<open folders>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"font",
+			"fonts",
+			"opensans/",
+			"browsehappy",
+			"page-header",
+			"browsehappy",
+			"body-black",
+			".no-js",
+			"app/",
+			"app",
+			"assets",
+			"class=\"",
+			".product_main-left",
+			"header_address",
+			"#68",
+			"mainpa",
+			".products-tile-outer",
+			"body",
+			".content",
+			"product_gallery",
+			"product_image",
+			"product_image{",
+			".product_image{",
+			"999p",
+			"class=\"header_auth-icon\"",
+			"drop-down-wrap",
+			"ebebeb",
+			"1000",
+			"promos-tile__el",
+			"999",
+			"1000",
+			"l-w",
+			"set-per-page",
+			"category-onpage_select",
+			"select",
+			"1000",
+			"#009999",
+			"#ff7420",
+			"#ff7400",
+			"js-action",
+			"js-product-tile-img",
+			"js-dialog",
+			"js-product-tile-img",
+			"js-dialog",
+			"js-product-tile-img",
+			"js-dialog",
+			"js-action",
+			"js-product-tile-img",
+			"product-tile-img",
+			"js-product-tile-img",
+			"webasyst.com/wa-data/public/updates/img/30/3130/icon.ru_RU.png",
+			"$",
+			"$bs",
+			"$bsColor",
+			"    background: {\n        $bsColor\n    }",
+			"    color: {\n        $scColor\n    }",
+			"$",
+			"{ldelim}",
+			"{rdelim}",
+			"{ldelim}",
+			"{rdelim}",
+			"{ldelim}",
+			".tabs_el.selected",
+			"custom-pr_icon",
+			"top",
+			"btn-",
+			"btn",
+			"009999",
+			"#009999",
+			"#ff7400",
+			"ff7400",
+			".product_main-right",
+			".content-block",
+			".content-block{",
+			"product_image-preview",
+			".product_image i",
+			".product_image",
+			"product_image-preview",
+			"product_image-preview.selected",
+			".product_image-preview.selected",
+			".product_main-left{",
+			".product_image im",
+			".product_image",
+			".product_main-left",
+			"product_main-left",
+			"product_gallery ",
+			".product_image",
+			"product_gallery-previews",
+			"Создание интернет-магазина",
+			".cat-menu__el",
+			".footer-b",
+			".footer",
+			"price",
+			"header_right",
+			".header_auth",
+			".header_cart-count",
+			"line",
+			"icon ion-android-cart sd-color",
+			".header_top",
+			".header_menu",
+			".header_top",
+			"link,a:hover",
+			"link,a",
+			"text-decoration:none;",
+			"a:hover",
+			"admin-quick-links__el",
+			"btn-settings",
+			"header_top",
+			".header_top",
+			".header{",
+			".header",
+			"unishop.min.css",
+			"background: #fff",
+			".header",
+			"map",
+			"unishop",
+			"D2505A",
+			"блог",
+			"Еще"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"src/"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.5,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.GitSavvy":
+	{
+		"height": 409.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "land.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"inde",
+				"wa-data/public/site/themes/unishop/index.html"
+			],
+			[
+				"unifooter.ht",
+				"wa-data/public/shop/themes/unishop/footer.html"
+			],
+			[
+				"galler",
+				"wa-data/public/shop/themes/unishop/product.gallery.html"
+			],
+			[
+				"slider",
+				"wa-data/public/shop/themes/unishop/slider.html"
+			],
+			[
+				"unishjs",
+				"wa-data/public/site/themes/unishop/unishop.min.js"
+			],
+			[
+				"shop.js",
+				"wa-data/public/shop/themes/unishop/unishop.shop.min.js"
+			],
+			[
+				"colors",
+				"wa-data/public/site/themes/unishop/colors.css"
+			],
+			[
+				"color",
+				"wa-data/public/site/themes/unishop/colors.css"
+			],
+			[
+				"unis",
+				"wa-data/public/site/themes/unishop/unishop.css"
+			],
+			[
+				"tile",
+				"wa-data/public/shop/themes/unishop/product-preview-tile.html"
+			],
+			[
+				"unissh",
+				"wa-data/public/shop/themes/unishop/unishop.shop.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 50.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
